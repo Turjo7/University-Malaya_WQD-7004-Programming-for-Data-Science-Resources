@@ -1,0 +1,40 @@
+WQD7004 Chapter 4 Revision
+
+Flow Control
+- sequence
+  - step by step
+- selection
+  - chooses among alternative courses of action
+  - if(boolean_expression) {
+    
+    } else {
+
+    }
+  - if(boolean_expression1) {
+
+    } else if(boolean_expression2) {
+
+    } else {
+
+    }
+  - ifelse(boolean_expression, a, b)
+
+  - switch(expression, case1, case2, case3, ....)
+
+- repetition
+  - repeated while some condition remains true
+  - repeat {
+       if(boolean_expression) {
+          break
+       } 
+    }
+  - while(boolean_expression) {
+
+    }
+  - for(value in vector) {
+
+    }
+  - break
+    - terminate the loop
+  - next
+    - skip the current iteration 

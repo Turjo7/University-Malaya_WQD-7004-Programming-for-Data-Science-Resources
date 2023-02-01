@@ -1,0 +1,49 @@
+WQD7004 Chapter 6 Revision
+
+Package
+- collection of functions, complied code and sample data
+- install.packages("package names")
+- library(packagenames) 
+
+- dplyr 
+  - data manipulation
+  - function
+    - head() tail()
+    - dim()
+    - glimpse()
+  - %>%
+    - pipe operator 
+    - is used to chain the process 
+  - select(data, columns)
+    - picks variables based on their names
+    - select only the columns required
+    - starts_with() ends_with() contains() matches() num_range()
+  - filter() 
+    - picks cases based on their values
+    - return a subset of rows, multiple conditions can be applied
+    - filter(df, !is.na(x))  
+      - choose value of x is not NA
+  - arrange() 
+    - changes the ordering of the rows
+    - reorder one or many rows
+    - default is ascending
+    - desc()
+  - mutate()
+    - adds new variables that are functions of existing variables
+  - summarise() 
+    - reduces multiple values down to a single summary
+    - creates a new data frame
+    - can use any aggregating function 
+      - min() max() mean() median() sd() var() sum()
+      - first() last() nth(), n(), n_distinct()
+    - group_by()
+  - cut()
+    - divide the range of data frame into intervals
+  - aggregate()
+    - aggregate(numeric_variable~grouping_variable, data, FUN)
+    - compute summary statistics for subsets of the data
+
+- Tibble
+  - do not change the types and names of input variables
+  - do not use row names
+  - as_tibble()

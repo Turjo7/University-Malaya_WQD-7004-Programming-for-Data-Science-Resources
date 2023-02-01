@@ -1,0 +1,13 @@
+Introduction to R
+https://www.youtube.com/watch?v=HkNFn6eosaU
+https://www.youtube.com/watch?v=SWxoJqTqo08&t=93s
+
+Installing R
+https://www.youtube.com/watch?v=JBcVi-fAT_k
+
+Introduction to R Markdown
+https://rmarkdown.rstudio.com/lesson-1.html
+https://www.youtube.com/watch?v=DNS7i2m4sB0
+
+Learn about RPubs
+https://www.youtube.com/watch?v=dRhMWVPN_z4

@@ -1,0 +1,11 @@
+Create and Name Vectors in R
+
+https://www.youtube.com/watch?v=w5dOALbZ9HE
+
+Subsetting Vectors in R
+
+https://www.youtube.com/watch?v=o_ldRKmgvHo
+
+Logical Operators and Vectors
+
+https://www.youtube.com/watch?v=6PpQS-YLWDQ

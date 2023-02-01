@@ -1,0 +1,89 @@
+WQD7004 Chapter 7 Revision
+
+Data Cleaning
+
+- data quality problems
+  - manual data entry errors
+  - duplicate data
+  - missing values
+    - NA, ""
+  - data type errors
+  - data format errors
+  - corrupt records
+  - data transformation errors
+  - unwanted outliers
+
+- Data Cleaning
+  - process of identifying the incorrect, incomplete, 
+    inaccurate, irrelevant or missing part of the data 
+  - then modifying, replacing or deleting them 
+  - 80% of sourcing cleaning and preparing the data
+  - 20% is actual data analysis
+  - dplyr, tidyr, lubridate, stringr
+
+- function
+  - complete.cases()
+    - returns a data frame with no missing values
+  - any(is.na(dataframe)) 
+    - check any NAs value in the dataframe
+  - nrow(na.omit(dataframe))
+    - count the total rows with no NA values in any column
+  - mean(x, na.rm=TRUE)
+    - exclude missing value from analyses
+
+- tidyr
+  - reshapes the layout of the tables
+  - install.packages("tidyverse")
+  - library(tidyverse)
+  - gather()
+    - takes multiple columns and gathers them into key-value pairs
+    - gather(data frame, name of key, name of value, selected columns)
+    - may reduce number of columns
+  - spread()
+    - spreads a key-value pair across multiple columns
+    - spread(data frame, column for key, column for value)
+    - may increase number of columns
+  - separate()
+    - turns a single character column into multiple columns
+    - separate(data frame, single column, multiple columns, sep)
+  - unite()
+    - merges few columns into one column
+    - unite(data frame, single column, multiple columns, sep)
+
+- dplyr
+  - bind_cols()
+  - bind_rows()
+  - union()
+  - intersect()
+  - setdiff()
+  - left_join()
+    - left_join(data frame1, data frame2, by=)
+  - inner_join()
+  - semi_join()
+  - anti_join()
+
+- Lubridate
+  - date-times
+  - install.packages("lubridate")
+  - library(lubridate)
+  - function
+    - ymd() ymd_hms() dmy() dmy_hms() mdy()
+    - today() Sys.Date()
+    - now() Sys.time()
+
+- stringr
+  - string
+  - install.packages("stringr")
+  - library(stringr)
+  - function()
+    - str_trim() str_pad() str_detect() str_replace() toupper() tolower()
+
+
+
+
+     
+
+
+
+
+

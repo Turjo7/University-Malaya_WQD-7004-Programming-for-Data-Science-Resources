@@ -1,0 +1,16 @@
+Statistic with R (t-test and linear regression) and dplyr and ggplot
+
+https://www.youtube.com/watch?v=ANMuuq502rE
+t-test, the chi-square test, the p-value
+
+https://www.youtube.com/watch?v=I10q6fjPxJ0
+Linear Regression
+
+https://www.youtube.com/watch?v=Xh6Rex3ARjc
+Multiple Regression
+
+https://www.youtube.com/watch?v=ksOErR1ldgo
+
+
+https://rpubs.com/acircleda/R-Statistics-Notes
+https://www.grammarly.com/blog/how-to-write-a-hypothesis/?gclid=CjwKCAiA2L-dBhACEiwAu8Q9YP9TQsqucEVOchPcQZy8Y_mj5nLF1srSuCYLWLi1Zil5yuvDmDvwDhoCGSYQAvD_BwE&gclsrc=aw.ds

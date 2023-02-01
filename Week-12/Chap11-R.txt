@@ -1,0 +1,42 @@
+Chapter 11 Revision
+
+Shiny
+- build interactive web applications
+- app.R located in a directory 
+- runApp("directoryname").
+
+- app.R
+  - user interface object 
+  - server function 
+  - a call to the shiny App function 
+
+- fluidPage
+  - create a display that automatically adjusts to the dimensions of your user’s browser window. 
+
+- Image
+  - save image file in www folder
+  - img(src="imagefilename")
+
+- Custom Layout
+  - fluidRow()
+  - column()
+
+- Widgets
+  - user control (input)
+    - name 
+    - label
+   - user control (output)
+    - name 
+    - render function
+
+- Data  
+  - save data file in data folder
+
+- Reactive expressions
+  - control which parts of your app update
+
+- Share your Apps
+  - runUrl
+    - zip file
+  - runGitHub
+  - runGist

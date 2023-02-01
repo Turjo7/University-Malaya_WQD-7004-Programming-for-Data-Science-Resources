@@ -1,0 +1,44 @@
+WQD7004 Chapter 1 Revision
+
+Getting to know R
+- R script
+  - interpreted language 
+  - file extension .r
+  - case sensitive
+  - Comments starts with a # 
+
+- RStudio 
+  - IDE
+  - source
+  - console
+  - terminal
+    - rscript filename.R
+  - environment
+  - history
+  - files
+  - plots
+  - packages
+
+- R function
+  - q()
+  - help()
+  - data()
+  - getwd()
+  - setwd()
+  - list.files()
+
+- R Markdown (.Rmd)
+  - html, pdf, word
+
+- RPubs
+  - publish
+
+- R Object
+  - vector
+    - same data type
+    - c()
+      - mutliple elements
+    - element
+      - []
+      - index start from 1
+      - to exclude, use negative index

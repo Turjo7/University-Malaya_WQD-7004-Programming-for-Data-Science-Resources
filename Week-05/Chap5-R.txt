@@ -1,0 +1,39 @@
+WQD7004 Chapter 5 Revision
+
+Function and File
+- Function 
+  - a set of statements that perform a specific task
+  - reuse code
+  - function_name<-function(arg_1, arg_2, ...) { 
+
+    }
+  - define default value for arguments
+  - return() 
+  - source()
+  
+- File
+  - permanent storage of large amounts of data
+  - write data to the file and read data from the file
+  - working directory
+    - getwd()
+    - setwd()
+  - write data
+    - write.table() write.csv() write.csv2() 
+    - write() writeLines() cat() 
+    - writeBin(object, con)
+    - saveRDS(dataframe, "filename.rds")
+    - save(list=ls(), file="week1.Rdata")
+  - read data
+    - read.table() read.csv() read.csv2() 
+    - readLines() read.delim() 
+    - readBin(con, what, n)
+      - what is used to specified the type of data 
+  - readRDS
+    - data<-readRDS("filename.rds")
+  - load
+    - load("filename.Rdata")
+  - file()
+  - scan()
+  - serialize()
+    - convert object into a binary format 
+    - remote connection

@@ -1,0 +1,77 @@
+WQD7004 Chapter 2 Revision
+
+Basics in R
+- variable
+  - data type, name, value
+  - declared before used
+  - name
+    - letter, digit, _, .
+    - . hidden variable
+    - cannot begin with digit or _
+    - cannot be reserved word
+  - data type
+    - logical (TRUE, FALSE)
+    - numeric (12.5, 21.254623)      
+      - hexa (0x, 0X, as.hexmode(var))
+    - integer (5L, 2022L)
+    - complex (4-3i)
+    - character ("welcome")
+    - raw 
+      - charToRaw("abcde")
+  - function 
+    - class()
+    - typeof()
+    - ls()
+    - ls(all.names = TRUE)
+    - rm()
+  - NA (not available), NaN (not a number)
+  - LETTERS, letters
+  - pi, month.name, month.abb
+
+- variable coercion
+  - implicit
+    - logical -> integer -> numeric -> complex -> character
+  - explicit
+    - as.character()
+    - if failed, NA is returned
+
+- function
+  - seq(from, to, by, length.out)
+  - rep(x, times, length.out, each)
+  - nchar()
+
+- Operator
+  - assignment
+    - <- =
+  - arithmetic
+    - + - * / %% ^ %/% 
+  - relational
+    - ==. !=, >, >=, <, <=
+  - logical
+    - &, |, !
+    - &&, || (first element)
+  - if an elements belongs to a vector
+    - %in%
+
+- Input
+  - readLines("stdin", 1)
+
+- Output
+  - print()
+  - paste()
+    - sep
+    - collapse
+  - paste0()
+  - cat()
+  - sprintf()
+
+- Random number
+  - sample(x, size, replace = FALSE, prob = NULL)
+    - replace=FALSE, no duplication
+    - prob - probability (%)
+  - sample.int(n, size = x, replace = FALSE)
+    - random number 1 till n
+  - rnorm(n, mean, sd)
+    - mean value (default value is zero)
+    - standard deviation (default value is 1)
+    - set.seed(seed)

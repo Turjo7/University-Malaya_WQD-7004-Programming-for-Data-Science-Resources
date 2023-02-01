@@ -1,0 +1,2 @@
+https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
+https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_strings.pdf

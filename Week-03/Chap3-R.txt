@@ -1,0 +1,69 @@
+WQD7004 Chapter 3 Revision
+
+Data Structures
+- list
+  - different types of elements
+  - list()
+  - names(list_varname) 
+  - list_varname[[index]], list_varname[[name]], list_varname$name
+  - delete item
+    list_varname[[index]] <- NULL
+    list_varname <- list_varname[[-index]]
+  - function
+    - length()
+    - str()
+    - unlist()
+
+- matrix
+  - two-dimensional rectangular data set
+  - matrix(data, nrow, ncol, byrow, dimnames)
+    - the data is populated to each column 
+  - matrix[m,n] # m row, n column
+  - matrix[m,] # entire rows
+  - matrix[,n] # entire columns
+  - function
+    - nrow() ncol()
+    - dim()
+    - rownames(), colnames(), dimnames()
+    - cbind() rbind() 
+    - t()
+    - diag()
+  - %*% 
+    - multiply a matrix 
+
+- array
+  - any number of dimensions
+  - similar to matrices
+  - array()
+
+- data frame
+  - data is stored in the form of table
+  - different types of elements
+  - data.frame() 
+  - column names should be non-empty 
+    - names()
+  - row names should be unique 
+    - row.names()
+  - add new column
+    - s.data$newcolumnname <- newcoldata
+  - function
+    - str()
+    - summary()
+    - nrow() ncol()
+    - cbind() rbind() 
+    - with(), which()
+    - subset()
+    - order()
+    - merge()
+    - read.table() read.csv()
+    - data.matrix()
+    - View()
+    - apply() lappy() sapply() tapply() mapply()
+
+- factors
+  - stores the vector along with the distinct values of the elements 
+  - factor() 
+  - nlevels()
+  - levels() 
+  - gl(n, k, labels=), gl(n, k, length)
+  - table()

@@ -1,0 +1,68 @@
+WQD7004 Chapter 8 Revision
+
+Exploratory Data Analysis
+- analyze and investigate data sets
+- summarize their main characteristics
+- employing data visualization
+- understanding of data set variables and the relationships 
+
+Data Exploration Techniques
+- Summary Statistics
+  - Frequency
+    - mode, percentile
+  - Location 
+    - mean, median, trimmed mean
+  - Spread
+    - variance, standard deviation
+    - average absolute deviation
+    - median absolute deviation (MAD)
+
+- Visualization
+  - conversion of data into a visual or tabular format
+  - detect general patterns and trends
+  - detect outliers and unusual patterns
+  - graphical elements : points, lines, shapes, colors and size
+  - representation, arrangement, selection
+  - plot()
+    - plot(x, y, type)
+    - plot(y~x, data=dataset)
+    - LOWESS (Locally Weighted Scatterplot Smoothing)
+      - a method of regression analysis
+      - creates a smooth line through a scatterplot
+  - ggplot2
+    - create complex plots from data 
+    - install.packages("ggplot2")
+    - library(ggplot2)
+    - ggplot()
+      - aes() labs() geom_point() geom_histogram()
+    - Line chart
+      - displays information as a series of data points
+      - geom_line() geom_point()
+    - Bar chart
+      - presents categorical data with rectangular bars with heights or lengths proportional to the values
+      - geom_bar() geom_bar(position="dodge") geom_bar(position="fill")
+    - Histogram
+      - organizes a group of data points into user-specified ranges. 
+      - summarize discrete or continuous data that are measured on an interval scale 
+      - geom_histogram()
+    - Scatter plot
+      - shows the relationship between different variables 
+      - geom_point()
+      - qplot() geom=c("point", "smooth")
+    - Box plots 
+      - show the distribution of numerical data and skewness 
+      - five-number summary 
+        - minimum, first quartile, median, third quartile, and maximum
+      - boxplot()
+    - Matrix plot
+      - an array of scatterplots
+      - relationships among pairs of variables
+      - pairs()
+  - plot3D
+    - plot multi-dimensional data
+    - library(plot3D)
+    - hist3D()
+  - Faceting
+    - the process that split the chart window in several small parts (a grid)
+    - display a similar chart in each section
+

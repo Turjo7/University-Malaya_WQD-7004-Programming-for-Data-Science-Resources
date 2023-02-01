@@ -1,0 +1,89 @@
+WQD7004 Chapter 10 Revision
+
+Machine Learning with R
+
+- Machine Learning
+  - automates the process of data analysis
+  - makes data-informed predictions in real-time without any human intervention
+  - use cases
+    - email categorization
+    - anomaly Detection
+    - OCR, image recognition
+    - log file analysis 
+    - detect trends 
+    - predict stock price
+  - supervised learning
+    - apply what has been learned in the past to new data
+      - Regression
+        - predicts one set of numbers given another set of numbers.
+      - Classification
+        - identify which set of categories a new observation belong
+        - confusion matrix
+          - a table that is often used to describe the performance of a classification model
+          - True positives (TP)
+            - predicted yes and they do have the disease.
+          - True negatives (TN)
+            - predicted no and they don't have the disease.
+          - False positives (FP)
+	    - predicted yes, but they don't actually have the disease (Type 1 error)
+          - False negatives (FN)
+            - predicted no, but they actually do have the disease (Type II error)  
+        - Formula
+          - Accuracy - (TP+TN)/total 
+          - Misclassification Rate - (FP+FN)/total
+          - True Positive Rate - TP/actual yes (sensitivity)
+          - False Positive Rate - FP/actual no 
+          - True Negative Rate - TN/actual no (1- False Positive Rate ) (specificity)
+          - Precision -	TP/predictedyes
+          - Prevalence - actualyes/total
+
+  - unsupervised learning
+    - when the information used to train is neither classified nor labeled
+    - Clustering
+      - dividing the population or data points into a number of groups such that 
+        data points in the same groups are more similar to other data points 
+        in the same group than those in other groups.
+
+  - semi-supervised
+    - use both labeled and unlabeled data for training
+
+  - reinforcement
+    - interacts with its environment by producing actions and discovers errors or rewards.
+
+  - caret package (Classification And REgression Training)
+    - a set of functions that attempt to streamline the process for creating predictive models. 
+    - install.packages("caret")
+    - data splitting
+      - split=0.80  # define an 80%/20% train/test split 
+    - pre-processing
+    - feature selection
+    - model tuning using resampling
+      - naive bayes model
+      - confusionMatrix()
+      - train()
+    - variable importance estimation
+
+  - Overfitting
+    - when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. 
+    - use a resampling technique to estimate model accuracy
+    - k-fold cross validation    
+  - Underfitting
+    - a data model is unable to capture the relationship between the input and output variables accurately, generating a high error rate on both the training set and unseen data.
+
+  - Accuracy
+  - Kappa
+    - values ≤ 0 as indicating no agreement
+  - RMSE
+    - measure of how well a regression line fits the data points.
+  - R-squared
+    - represents the goodness of fit of a regression model. 
+  - ROC (receiver operating characteristic)
+    - show the performance of a classification model at all classification thresholds. 
+  - AUC (Area under the ROC)
+   - the measure of the ability of a classifier to distinguish between classes
+   - used as a summary of the ROC curve 
+   - the higher the AUC, the better the performance of the model 
+  - Sensitivity (true positive rate)
+    - the recall
+  - Specificity (1- false positive Rate) 
+    - measures the proportion of negatives that are correctly identified

@@ -1,0 +1,101 @@
+WQD7004 Chapter 9 Revision
+
+Statistics and Regression Modeling
+
+- Statistics
+  - collection, description, analysis, and inference of conclusions from quantitative data
+  - draw reliable conclusions about large groups
+  - population (N) sample (n) 
+    - n>30 normal distribution
+    - n<30 t distribution
+  - variables
+    - independent variables
+      - view the impact of dependent variables
+    - dependent variables
+      - relied on the independent variable
+    - categorical variables
+      - qualitative variables or attribute variable
+      - nominal
+        - name, label or categorize 
+          - Dichotomous (two categories)
+      - ordinal
+        - measurement variable that takes values with an order or rank
+    - continuous variables
+      - unlimited number of values between the lowest and highest points 
+      - interval variables 
+        - measured along a continuum
+      - ratio variables
+        - interval variables
+        - 0 (zero) indicates that there is none of that variable
+
+- descriptive statistics
+  - describes the properties of sample and population data
+  - mean, median, mode
+  - range, variance, standard deviation
+  - distribution
+    - probability distribution function
+    - skewness (distortion or asymmetry)
+    - kurtosis (tails or peak)
+  - Statistical Measures
+    - Frequency
+    - Central Tendency
+    - Dispersion or Variation (Spread)
+    - Position
+    - Confidence interval 
+      - 95% 99%
+      - Z-score 
+
+- inferential statistics
+  - test hypotheses and draw conclusions
+  - make generalisations and predictions about a wider sample group
+  - important to use random and unbiased sampling methods
+  - Hypothesis testing 
+    - tests an assumption regarding a population parameter 
+    - state the two hypotheses so that only one can be right
+      - H0 Null Hypothesis
+      - H1 Alternative Hypothesis
+    - formulate an analysis plan (how the data will be evaluated)
+    - analyze the sample data
+    - analyze the results and either reject the null hypothesis or state that the null hypothesis is plausible
+    - p-value is less than or equal to alpha, reject the null hypothesis, result is statistically significant
+    - p-value is greater than alpha, fail to reject the null hypothesis, result is not statistically significant
+  - Type I error
+      - REJECT H0 when the null hypothesis is TRUE 
+  - Type II error
+      - ACCEPT H0 when it is FALSE
+  - parametric tests
+    - T-Test
+      - determine if there is a significant difference between the means of two groups
+    - ANOVA
+      - splits an observed aggregate variability found inside a data set into two parts
+        - systematic factors
+        - random factors
+  - non parametric tests 
+    - chi-square (χ2)
+      - measures how a model compares to actual observed data 
+
+- Regression Model
+  - describes the relationship between one or more independent variables
+  - Linear Regression  
+    - the relationship between inputs and outputs is a straight line
+  - Multiple Linear Regression
+    - more than one input variables that may affect the target variable
+  - Non-Linear Regression
+    - a form of regression analysis in which data is fit to a model and then expressed as a mathematical function
+    - can show a prediction of population growth over time
+  - Correlation coefficient (r)
+    - both variables are continuous: Pearson product-moment
+    - both variables are nominal
+      - Two categories for each variable: Phi
+      - Multiple categories for each variable: Kappa
+    -  both variables are ordinal: Spearman rank
+    - cor()
+    - cor.test()
+      - method="pearson"
+    - gglot() geom_smooth(method="lm") 
+    - predict()
+    - stat_smooth()
+
+
+
+
